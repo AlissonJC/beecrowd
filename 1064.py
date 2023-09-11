@@ -29,4 +29,3 @@ if f > 0:
 
 print(f"{positive_numbers} valores positivos")
 print(f"{sum_of_positives/positive_numbers:.1f}")
-
