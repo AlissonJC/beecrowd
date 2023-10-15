@@ -31,7 +31,7 @@ __Python 3__ using only built-in libraries.
 # How to use?
 
 If you need a hand to solve any Beecrowd problem, don't just copy-paste these solutions.
-Read them, understand them, and then try to develop a solution form your mind.
+Read them, understand them, and then try to develop a solution from your mind.
 
 Feel free to test my solutions.
 
