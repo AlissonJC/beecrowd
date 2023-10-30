@@ -31,25 +31,20 @@ int getnum(vector<int> current){
       }
     }
   }
-  /* save for later and return */
   spacereq[current]=mn;
   return mn;
 }
 int main(){
-  /* initialize table of the last seat in each row (including ghost
-     seats) */
   limits.resize(MAXROWS+2);
   limits[0]=0;
   for (int i=1;i<MAXROWS+2;i++){
     limits[i]=limits[i-1]+i+1;
   }
-  /* read input on format: N [number of different group sizes]
-     x_1, ..., x_n [number in each group] */
+  
   int N;
   cin>>N;
   vector<int> nums(N,0);
   int totalpersons=0;
-  /* base case for memoization */
   spacereq[nums]=0;
   for (int i=0;i<N;i++){
     cin>>nums[i];
