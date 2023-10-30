@@ -1,23 +1,20 @@
-_row = int(input())
+row = int(input())
+
 op = input()
 
-const = 12
+M = []
+for i in range(12):
+    line = []
+    for j in range(12):
+        line.append(float(input()))
+    M.append(line)
 
-matrix = []
+total = 0.0
 
-for row in range(const):
-    a = []
-    for column in range(const):
-        a.append(float(input()))
-    matrix.append(a)
+for i in range(12):
+    total += M[row][i]
 
-total = []
-for row in range(const):
-    for column in range(const):
-        total.append(matrix[_row][column])
-    break
+if op == 'M':
+    total /= 12
 
-if op == "S":
-    print(f"{sum(total):.1f}")
-elif op == "M":
-    print(f"{sum(total)/const:.1f}")
+print(f'{total:.1f}')
