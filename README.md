@@ -18,8 +18,9 @@ structures, SQL, and much more.
 
 ## 📁 Organization
 
-Each file is named after the problem number — e.g. `1001.cpp`, `2602.sql`.
-Open any problem at:
+Solutions live in the [`solutions/`](solutions/) folder, each file named after
+the problem number — e.g. `solutions/1001.cpp`, `solutions/2602.sql`. Open any
+problem at:
 
 ```
 https://www.beecrowd.com.br/judge/en/problems/view/{number}
