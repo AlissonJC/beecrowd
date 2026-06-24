@@ -1,40 +1,46 @@
-# Beecrowd / URI Online Judge
+# 🐝 Beecrowd Solutions
 
-Beecrowd (former URI Online Judge) is a website where programmers can solve many problems and contests to explore and evolve their skills on programming, algorithms, data structures, and many other important subjects in order to develop a great problem-solver professional.
+![C++](https://img.shields.io/badge/C%2B%2B-182-00599C?logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-240-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-51-4479A1?logo=postgresql&logoColor=white)
+![C](https://img.shields.io/badge/C-5-A8B9CC?logo=c&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-# This repository
+My accepted solutions to [**Beecrowd**](https://www.beecrowd.com.br/) (formerly
+**URI Online Judge**) — a platform to practice programming, algorithms, data
+structures, SQL, and much more.
 
-In this repository I share my solved problems using Python 3. The name of the file is the number of the problem. To access the problem just use the following link:
+## 📊 Solutions by language
 
-https://www.beecrowd.com.br/judge/en/problems/view/{problem_number}
+| Language | Count |
+|----------|:-----:|
+| 🐍 Python | 240 |
+| ⚙️ C++ | 182 |
+| 🗃️ SQL | 51 |
+| 🔧 C | 5 |
+| **Total** | **478** |
 
-Just change *{problem_number}* for the number file you want to check e.g.:
-https://www.beecrowd.com.br/judge/en/problems/view/1247
+## 📁 Organization
 
-# Motivation
+Each file is named after the problem number — e.g. `1001.cpp`, `1247.py`,
+`2602.sql`. Open any problem at:
 
-In order to achieve a better understanding of my programming skills and to contribute to our community I decided to share my accepted submissions.
-It's a way to keep tracking what I have already done and to serve as an answer archive to those trying to solve the problems.
+```
+https://www.beecrowd.com.br/judge/en/problems/view/{number}
+```
 
-# Build Status
+C++ solutions include a header explaining the statement, the approach, and the
+time/space complexity.
 
-Beta forever.
+## 🎯 Motivation
 
-*Just kidding.*
+Sharing my accepted submissions keeps track of what I've solved and serves as a
+reference archive. As long as Beecrowd keeps adding problems, this repository
+keeps growing.
 
-As long as Beecrowd has new problems, this repository will be in an ever-changing status.
+If you're stuck, read and understand a solution first — then write your own.
+Please don't just copy-paste. 🙂
 
-# Tech / Framework used
+## 📜 License
 
-__Python 3__ using only built-in libraries.
-
-# How to use?
-
-If you need a hand to solve any Beecrowd problem, don't just copy-paste these solutions.
-Read them, understand them, and then try to develop a solution from your mind.
-
-Feel free to test my solutions.
-
-# License
-
-This repository is under MIT license.
+Released under the [MIT License](LICENSE).
