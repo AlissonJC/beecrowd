@@ -1,6 +1,0 @@
-distance = int(input())
-spent_fuel = float(input())
-
-consumption = distance/spent_fuel
-
-print(f"{consumption:.3f} km/l")
