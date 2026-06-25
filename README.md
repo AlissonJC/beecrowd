@@ -1,6 +1,6 @@
 # 🐝 Beecrowd Solutions
 
-![C++](https://img.shields.io/badge/C%2B%2B-186-00599C?logo=cplusplus&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-187-00599C?logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-51-4479A1?logo=postgresql&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -12,9 +12,9 @@ structures, SQL, and much more.
 
 | Language | Count |
 |----------|:-----:|
-| ⚙️ C++ | 186 |
+| ⚙️ C++ | 187 |
 | 🗃️ SQL | 51 |
-| **Total** | **237** |
+| **Total** | **238** |
 
 ## 📁 Organization
 
